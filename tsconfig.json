@@ -5,7 +5,7 @@
     "target": "ESNext",
     "sourceMap": false,
     "rootDir":"./src",
-    "outDir":"./dist",
+    "outDir":"./lib",
     "esModuleInterop":true,
     "declaration": true,
     "skipLibCheck": true,

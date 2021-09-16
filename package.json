@@ -1,12 +1,12 @@
-{
+  {
   "name": "@daoxin/utils",
   "version": "0.0.1",
   "description": "Javascript常用工具继承库封装",
-  "module": "dist/index.js",
-  "main": "dist-cmj/index.js",
+  "module": "lib/index.js",
+  "main": "common-js/index.js",
   "scripts": {
     "test": "nodemon --exec npx jest jest",
-    "build": "npx tsc --module CommonJS --outDir ./dist-cmj & npx tsc",
+    "build": "npx tsc --module CommonJS --outDir ./common-js & npx tsc",
     "build:test": "npx tsc -w",
     "publish": "npm publish --access public"
   },

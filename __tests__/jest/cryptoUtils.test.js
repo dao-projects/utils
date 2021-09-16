@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { cryptoUtils } from '../../dist'
+import { cryptoUtils } from '../../lib'
 
 test('encrypto and decrypto: can run true', () => {
   const str = 'hello world'

@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { regUtils } from '../../dist'
+import { regUtils } from '../../lib'
 
 test('testChinese: can run true', () => {
   expect(regUtils.testChinese('')).toBe(false)
@@ -12,9 +12,9 @@ test('testChinese: can run true', () => {
 
 test('testEmail: can run true', () => {
   expect(regUtils.testEmail('')).toBe(false)
-  expect(regUtils.testEmail('xizher@163.com')).toBe(true)
-  expect(regUtils.testEmail('xizher@163.comfewfaewn')).toBe(false)
-  expect(regUtils.testEmail('xizher163.com')).toBe(false)
+  expect(regUtils.testEmail('liuhangbiaoo@gmail.com')).toBe(true)
+  expect(regUtils.testEmail('liuhangbiaoo@gmail.comfewfaewn')).toBe(false)
+  expect(regUtils.testEmail('liuhangbiaoogmail.com')).toBe(false)
 })
 
 test('testNumber: can run true', () => {

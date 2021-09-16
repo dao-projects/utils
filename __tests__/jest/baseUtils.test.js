@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { baseUtils } from '../../dist'
+import { baseUtils } from '../../lib'
 
 test('deepCopyJSON: can run true', () => {
 
