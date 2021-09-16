@@ -1,6 +1,6 @@
   {
   "name": "@daoxin/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Javascript常用工具继承库封装",
   "module": "lib/index.js",
   "main": "common-js/index.js",
