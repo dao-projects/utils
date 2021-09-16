@@ -227,6 +227,12 @@ test('encrypto and decrypto: can run true', () => {
 ## 使用样例
 
 ```javascript
+import $ext,{ extDate } from '@daoxin/utils'
+console.log("extDate===>",new extDate(new Date()).format('yyyy-MM-dd'))
+console.log("$ext===>",$ext(new Date()).format('yyyy-MM-dd'))
+```
+
+```javascript
 // 方式一：
 /* eslint-disable no-undef */
 import $ext from '@daoxin/utils'
